@@ -1,0 +1,85 @@
+.container{
+  width: 900px;
+  margin:auto;
+  background-color: rgba(3, 3, 3, 0.6);
+  padding:80px
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image:url("background.jpg");
+  background-size:cover;
+}
+
+/* header */
+
+.logo{
+  display: block;
+  margin:auto;
+  width: 200px
+}
+.note {
+  font-size: 120%;
+  color: red;
+}
+.title{
+  text-align: center;
+  color: rgb(20, 210, 20);
+  padding-top: 20px;
+  font-size: 150%
+}
+
+/* buttons */
+#center{
+  background-color: rgb(20, 210, 20);
+  width:auto;
+  height:auto;
+  padding:4px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+/* monopattini */
+
+p{
+  font-style:normal;
+  font-size:15px;
+  color: rgba(255, 255, 255, 0.8);(255, 255, 255);
+  margin-bottom: -15px;
+}
+
+
+span{
+  font-style: normal;
+  font-size:130%;
+  color:rgb(255,255,255);
+}
+
+/* carica monopattini */
+
+#Monopattino1{
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  background-color: orange;
+}
+
+#Monopattino2{
+  width: 70%;
+  height: auto;
+  padding: 10px;
+  background-color:green;
+}
+
+#Monopattino3{
+  width: 20%;
+  height: auto;
+  padding: 10px;
+  background-color:red;
+}
